@@ -301,4 +301,4 @@ resource "aws_iam_role" "log_writer_role" {
 resource "aws_iam_role_policy_attachment" "log_write_policy" {
   role       = aws_iam_role.log_writer_role.name
   policy_arn = "arn:aws:iam::aws:policy/AmazonS3FullAccess"
-}
+} ``
